@@ -1,0 +1,31 @@
+object frmTelaInicial: TfrmTelaInicial
+  Left = 0
+  Top = 0
+  BorderStyle = bsNone
+  Caption = 'frmTelaInicial'
+  ClientHeight = 406
+  ClientWidth = 672
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  WindowState = wsMaximized
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnResize = FormResize
+  PixelsPerInch = 96
+  TextHeight = 13
+  object logo: TImage
+    Left = 0
+    Top = 0
+    Width = 672
+    Height = 406
+    Align = alClient
+    ExplicitLeft = 567
+    ExplicitWidth = 406
+    ExplicitHeight = 105
+  end
+end
